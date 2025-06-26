@@ -6,7 +6,7 @@ import { useTheme } from "../../context/ThemeContext";
 
 import PROFILE_PIC from "../../assets/images/profile-img.jpg";
 import { containerVariants, itemVariants } from "../../utils/helper";
-import { HERO_CONTENT } from "../../utils/siteContent";
+import { HERO_CONTENT, SOCIAL_LINKS_CONTENT } from "../../utils/siteContent";
 import AvailabilityStatus from "../AvailabilityStatus";
 
 const HeroSection = () => {
@@ -204,7 +204,7 @@ const HeroSection = () => {
                 variants={itemVariants}
                 className="flex justify-center space-x-6 mb-8"
               >
-                {HERO_CONTENT.socialLinks.map((social, index) => (
+                {SOCIAL_LINKS_CONTENT.links.map((social, index) => (
                   <motion.a
                     key={index}
                     href={social.href}
@@ -322,7 +322,7 @@ const HeroSection = () => {
                 variants={itemVariants}
                 className="flex space-x-6 mb-12"
               >
-                {HERO_CONTENT.socialLinks.map((social, index) => (
+                {SOCIAL_LINKS_CONTENT.links.map((social, index) => (
                   <motion.a
                     key={index}
                     href={social.href}

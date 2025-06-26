@@ -26,6 +26,7 @@ import LOGO_TECHO from "../assets/logos/techo.png"
 import LOGO_TRELLIX from "../assets/logos/trellix.png"
 import LOGO_MCAFEE from "../assets/logos/mcafee.png"
 import LOGO_UNIANDES from "../assets/logos/uniandes.png"
+import CAMILO_BELTRAN_CV from "../assets/Camilo-Beltran-CV.pdf"
 
 export const NAVBAR_CONTENT = {
   logoText: "Time to Connect",
@@ -61,23 +62,6 @@ export const HERO_CONTENT = {
     "MEDDPICC",
     "Technical Demos",
     "GTM Strategy",
-  ],
-  socialLinks: [
-    {
-      icon: FiLinkedin,
-      href: "https://www.linkedin.com/in/cbj03/",
-      label: "LinkedIn",
-    },
-    {
-      icon: Mail,
-      href: "mailto:permanecer_temporadas9w@icloud.com",
-      label: "Email",
-    },
-    {
-      icon: Download,
-      href: "https://drive.google.com/file/d/1SqmcNNlsmZerCKwgV-8-aQkxfQNa-D01/view?usp=drive_link",
-      label: "View CV",
-    },
   ],
 };
 
@@ -465,7 +449,7 @@ export const SOCIAL_LINKS_CONTENT = {
     },
     {
       icon: Download,
-      href: "https://drive.google.com/file/d/1JRnihbxChwyGncgPC2htlRUx4bSwlZRW/view?usp=drive_link",
+      href: CAMILO_BELTRAN_CV,
       label: "View CV",
       color: "hover:text-blue-400",
       bgColor: "hover:bg-blue-500/10",
