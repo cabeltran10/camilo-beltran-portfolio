@@ -15,12 +15,12 @@ import {
 
 import { FiLinkedin } from "react-icons/fi";
 
-import PROJECT_IMG_1 from "../assets/images/project-1.png";
-import PROJECT_IMG_2 from "../assets/images/project-2.jpeg";
-import PROJECT_IMG_3 from "../assets/images/project-3.jpeg";
-import PROJECT_IMG_4 from "../assets/images/project-4.png";
-import PROJECT_IMG_5 from "../assets/images/project-5.png";
-import PROJECT_IMG_6 from "../assets/images/project-6.png";
+import PROJECT_IMG_1 from "../assets/images/project-1.jpg";
+import PROJECT_IMG_2 from "../assets/images/project-2.jpg";
+import PROJECT_IMG_3 from "../assets/images/project-3.jpg";
+import PROJECT_IMG_4 from "../assets/images/project-4.jpg";
+import PROJECT_IMG_5 from "../assets/images/project-5.jpg";
+import PROJECT_IMG_6 from "../assets/images/project-6.jpg";
 import SIGNATURE from "../assets/images/signature.png";
 import LOGO_TECHO from "../assets/logos/techo.png"
 import LOGO_TRELLIX from "../assets/logos/trellix.png"

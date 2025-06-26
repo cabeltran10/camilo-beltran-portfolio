@@ -116,7 +116,7 @@ If using a custom domain (e.g. `www.camilo.com`):
 
 ## 📸 Preview
 
-![Portfolio Screenshot](./src/assets/preview.png)
+![Portfolio Screenshot](./src/assets/preview.jpg)
 
 ## 🛠️ Customization
 
