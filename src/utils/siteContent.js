@@ -453,7 +453,7 @@ export const SOCIAL_LINKS_CONTENT = {
     },
     {
       icon: Download,
-      href: "https://drive.google.com/file/d/1SqmcNNlsmZerCKwgV-8-aQkxfQNa-D01/view?usp=drive_link",
+      href: "https://drive.google.com/file/d/1JRnihbxChwyGncgPC2htlRUx4bSwlZRW/view?usp=drive_link",
       label: "View CV",
       color: "hover:text-blue-400",
       bgColor: "hover:bg-blue-500/10",
