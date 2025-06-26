@@ -22,6 +22,10 @@ import PROJECT_IMG_4 from "../assets/images/project-4.png";
 import PROJECT_IMG_5 from "../assets/images/project-5.png";
 import PROJECT_IMG_6 from "../assets/images/project-6.png";
 import SIGNATURE from "../assets/images/signature.png";
+import LOGO_TECHO from "../assets/logos/techo.png"
+import LOGO_TRELLIX from "../assets/logos/trellix.png"
+import LOGO_MCAFEE from "../assets/logos/mcafee.png"
+import LOGO_UNIANDES from "../assets/logos/uniandes.png"
 
 export const NAVBAR_CONTENT = {
   logoText: "Time to Connect",
@@ -291,80 +295,88 @@ export const ABOUT_SECTION_CONTENT = {
       year: "2024",
       title: "Territory Sales Manager - English Caribbean",
       company: "Trellix (formerly McAfee)",
+      contractType: "Full-time",
       description:
         "Drove 80% YoY growth across 20+ countries in 9 months, managing 300–500 accounts and leading partner-driven GTM strategies in strategic Caribbean markets.",
-      icon: Briefcase,
-      color: "bg-green-500",
+      icon: LOGO_TRELLIX,
+      color: "bg-gray-600",
     },
     {
       id: "7",
       year: "2023",
       title: "Postgraduate Degree in Negotiation",
       company: "Universidad de los Andes, Colombia",
+      contractType: "Student",
       description:
         "Completed a business-focused postgraduate program that sharpened my negotiation, influence, and conflict resolution skills.",
-      icon: GraduationCap,
-      color: "bg-cyan-500",
+      icon: LOGO_UNIANDES,
+      color: "bg-purple-600",
     },
     {
       id: "6",
       year: "2022",
       title: "Sales Account Manager – Andean Region",
       company: "Trellix (formerly McAfee)",
+      contractType: "Full-time",
       description:
         "Achieved 180% and 280% of quota in two years. Managed 1,200+ accounts across Colombia, Ecuador, Peru, and Venezuela while closing $15K–$1.2M deals.",
-      icon: Briefcase,
-      color: "bg-green-500",
+      icon: LOGO_TRELLIX,
+      color: "bg-gray-600",
     },
     {
       id: "5",
       year: "2020",
       title: "Renewal Account Manager – Colombia & Venezuela",
       company: "Trellix (formerly McAfee)",
+      contractType: "Full-time",
       description:
         "Hit 130% quota in one year and improved case resolution time from weeks to days through technical collaboration and value-aligned renewal strategies.",
-      icon: Briefcase,
-      color: "bg-green-500",
+      icon: LOGO_MCAFEE,
+      color: "bg-gray-600",
     },
     {
       id: "4",
       year: "2020",
       title: "BSc. Systems & Computer Engineering",
       company: "Universidad de los Andes, Colombia",
+      contractType: "Student",
       description:
         "Earned my engineering degree with a strong foundation in computing, software development, and systems design.",
-      icon: GraduationCap,
-      color: "bg-cyan-500",
+      icon: LOGO_UNIANDES,
+      color: "bg-purple-600",
     },
     {
       id: "3",
       year: "2020",
       title: "Teaching Assistant – Web Applications Development",
       company: "Universidad de los Andes, Colombia",
+      contractType: "Teaching",
       description:
         "Guided 25+ students on HTML, CSS, JS, and React best practices, improving technical outcomes and communication in development projects.",
-      icon: Briefcase,
-      color: "bg-green-500",
+      icon: LOGO_UNIANDES,
+      color: "bg-amber-600",
     },
     {
       id: "2",
       year: "2017",
       title: "Teaching Assistant – Algorithms & Programming I",
       company: "Universidad de los Andes, Colombia",
+      contractType: "Full-time",
       description:
         "Supported 30+ students in foundational programming logic and algorithmic thinking, providing detailed code reviews and feedback.",
-      icon: Briefcase,
-      color: "bg-green-500",
+      icon: LOGO_UNIANDES,
+      color: "bg-amber-600",
     },
     {
       id: "1",
       year: "2016",
       title: "Habitat Coordinator",
       company: "TECHO Colombia",
+      contractType: "Volunteer",
       description:
         "Led the construction of 200+ emergency homes across three communities, managing 15+ volunteers and 500+ discovery surveys to ensure effective impact delivery.",
-      icon: Heart,
-      color: "bg-green-500",
+      icon: LOGO_TECHO,
+      color: "bg-sky-600",
     },
   ],
   passions: [
