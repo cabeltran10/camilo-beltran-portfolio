@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
-import { AVAILABILITY_STATUS_CONTENT } from "../utils/siteContent";
-import { itemVariants } from "../utils/helper";
+import { motion } from 'framer-motion';
+import { AVAILABILITY_STATUS_CONTENT } from '../utils/siteContent';
+import { itemVariants } from '../utils/helper';
 
 const AvailabilityStatus = ({ isDarkMode }) => {
   return (
@@ -10,21 +10,19 @@ const AvailabilityStatus = ({ isDarkMode }) => {
         isDarkMode
           ? AVAILABILITY_STATUS_CONTENT.box.dark
           : AVAILABILITY_STATUS_CONTENT.box.light
-      }`}
-    >
-      <div className="flex items-center space-x-3 mb-2">
+      }`}>
+      <div className='flex items-center space-x-3 mb-2'>
         <div
           className={`w-3 h-3 rounded-full animate-pulse ${AVAILABILITY_STATUS_CONTENT.pulseColor}`}
         />
-        <span className="font-medium text-green-500">
+        <span className='font-medium text-green-500'>
           {AVAILABILITY_STATUS_CONTENT.title}
         </span>
       </div>
       <p
         className={`text-sm break-words ${
-          isDarkMode ? "text-gray-400" : "text-gray-600"
-        }`}
-      >
+          isDarkMode ? 'text-gray-400' : 'text-gray-600'
+        }`}>
         {AVAILABILITY_STATUS_CONTENT.text}
       </p>
     </motion.div>
